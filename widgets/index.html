@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <title>CircularBar</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js?2.1.3"></script>
+    <script type="text/javascript" src="circular-bar/circular-bar.js"></script>
+  </head>
+  <body>
+    <svg width="800px" height="800px" viewBox="-150 -150 300 300">
+      <defs>
+	<style>
+	  @font-face {
+	    font-family: 'Georgia';
+	    src: local("Georgia");
+	    src: url('fonts/Georgia.ttf');
+	  }
+	  @font-face {
+	    font-family: 'Georgia Bold';
+	    src: local("Georgia Bold");
+	    src: url('fonts/Georgia Bold.ttf');
+	  }
+	  path {
+	    stroke: #FFF;
+	    stroke-width: 0.5;
+	  }
+	  text {
+	    font-family: Helvetica, sans-serif;
+	    font-weight: bold;
+	    font-size: 3pt;
+	    fill: #FFF;
+	  }
+	  text.label {
+	    text-transform: uppercase;
+	  }
+	  g.slice-country path {
+	    fill: #b5624d;
+	  }
+	  g.slice-country text.label {
+	    text-transform: uppercase;
+	    fill: #b5624d;
+	  }
+	  g.slice-category path {
+	    fill: #4c606d;
+	  }
+	  g.slice-category text.label {
+	    text-transform: uppercase;
+	    fill: #4c606d;
+	  }
+	  text.aggregate {
+	    font-family: Georgia, serif;
+	    font-weight: 100;
+	    font-size: 5.5pt;
+	    fill: #b5624d;
+	  }
+	  text.aggregate-blue {
+	    font-family: Georgia, serif;
+	    font-weight: 100;
+	    font-size: 5.5pt;
+	    fill: #4c606d;
+	  }
+	  text.aggregate tspan.number,
+	  text.aggregate-blue tspan.number {
+	    font-weight: 200;
+	    font-size: 12pt;
+	  }
+	</style>
+      </defs>
+    </svg>
+    <script type="text/javascript">
+      d3.json('applications.json', function(data) {
+        var vis = d3.select("body").select("svg");
+        vis.data(data);
+        CircularBar(vis, data);
+//        setTimeout(function() {
+//          CircularBar(vis);
+//        }, 1000);
+      });
+    </script>
+  </body>
+</html>

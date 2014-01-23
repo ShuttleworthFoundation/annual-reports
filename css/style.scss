@@ -1,0 +1,5 @@
+@mixin background-vector($vector, $fallback) {
+    background: transparent url($fallback) center center no-repeat;
+    background-image: -webkit-linear-gradient(transparent, transparent), url($vector);
+    background-image: linear-gradient(transparent, transparent), url($vector);
+}

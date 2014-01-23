@@ -1,0 +1,208 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF8">
+    <title>CircularBar</title>
+    <script src="/js/jquery-1.10.2.js"></script>
+    <script src="/js/d3.v3.js"></script>
+    <script type="text/javascript" src="/js/countries.js"></script>
+    <style type="text/css">
+
+body {
+background: #c8ddd6;
+}
+
+#fig {
+  width: 860px;
+  height: 550px;
+}
+
+#fig svg {
+  width: 100%;
+  height: 100%;
+}
+
+#fig path {
+  fill: #82a796;
+}
+
+#fig line {
+  stroke: #000;
+  stroke-width: 2;
+}
+
+#fig g.marker text,
+#fig g.popup text {
+  fill: #fff;
+  text-anchor: middle;
+  font-family: Helvetice, sans-serif;
+  font-size: 40pt;
+  font-weight: bold;
+}
+
+#fig g.marker line {
+  stroke: #fff;
+  stroke-width: 4;
+}
+
+#fig g.country path {
+  stroke: #fff;
+  stroke-width: 0.5;
+}
+
+#fig g.country-0 path,
+#fig g.popup-0 rect,
+#fig g.marker-0 circle {
+  fill: #dec69b;
+}
+
+#fig g.country-1 path,
+#fig g.popup-1 rect,
+#fig g.marker-1 circle {
+  fill: #768388;
+}
+
+#fig g.country-2 path,
+#fig g.popup-2 rect,
+#fig g.marker-2 circle {
+  fill: #98b3cd;
+}
+
+#fig g.country-3 path,
+#fig g.popup-3 rect,
+#fig g.marker-3 circle {
+  fill: #c78b48;
+}
+
+#fig g.country-4 path,
+#fig g.popup-4 rect,
+#fig g.marker-4 circle {
+  fill: #8b8099;
+}
+
+#fig g.country-5 path,
+#fig g.popup-5 rect,
+#fig g.marker-5 circle {
+  fill: #e0cfcb;
+}
+
+#fig g.country-6 path,
+#fig g.popup-6 rect,
+#fig g.marker-6 circle {
+  fill: #e3af24;
+}
+
+#fig g.country-7 path,
+#fig g.popup-7 rect,
+#fig g.marker-7 circle {
+  fill: #b4b4b4;
+}
+
+#fig g.country-8 path,
+#fig g.popup-8 rect,
+#fig g.marker-8 circle {
+  fill: #a1624f;
+}
+
+#fig g.country-9 path,
+#fig g.popup-9 rect,
+#fig g.marker-9 circle {
+  fill: #0f284f;
+}
+
+#fig g.country-10 path,
+#fig g.popup-10 rect,
+#fig g.marker-10 circle {
+  fill: #85796a;
+}
+
+#fig g.country-11 path,
+#fig g.popup-11 rect,
+#fig g.marker-11 circle {
+  fill: #c2c2a6;
+}
+
+#fig g.country-12 path,
+#fig g.popup-12 rect,
+#fig g.marker-12 circle {
+  fill: #bb8d8a;
+}
+
+#fig g.country-13 path,
+#fig g.popup-13 rect,
+#fig g.marker-13 circle {
+  fill: #b17c6d;
+}
+
+#fig g.country-14 path,
+#fig g.popup-14 rect,
+#fig g.marker-14 circle {
+  fill: #577844;
+}
+
+#fig g.country-15 path,
+#fig g.popup-15 rect,
+#fig g.marker-15 circle {
+  fill: #57664c;
+}
+
+#fig g.country-16 path,
+#fig g.popup-16 rect,
+#fig g.marker-16 circle {
+  fill: #53606c;
+}
+
+#fig g.country-17 path,
+#fig g.popup-17 rect,
+#fig g.marker-17 circle {
+  fill: #a1624f;
+}
+
+#fig g.country-18 path,
+#fig g.popup-18 rect,
+#fig g.marker-18 circle {
+  fill: #203a70;
+}
+
+#fig g.country-19 path,
+#fig g.popup-19 rect,
+#fig g.marker-19 circle {
+  fill: #384445;
+}
+
+#fig g.popup {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+#fig g.popup:hover {
+  opacity: 1;
+}
+
+#fig g.marker-0:hover ~ g.popup-0 { opacity: 1; }
+#fig g.marker-1:hover ~ g.popup-1 { opacity: 1; }
+#fig g.marker-2:hover ~ g.popup-2 { opacity: 1; }
+#fig g.marker-3:hover ~ g.popup-3 { opacity: 1; }
+#fig g.marker-4:hover ~ g.popup-4 { opacity: 1; }
+#fig g.marker-5:hover ~ g.popup-5 { opacity: 1; }
+#fig g.marker-6:hover ~ g.popup-6 { opacity: 1; }
+#fig g.marker-7:hover ~ g.popup-7 { opacity: 1; }
+#fig g.marker-8:hover ~ g.popup-8 { opacity: 1; }
+#fig g.marker-9:hover ~ g.popup-9 { opacity: 1; }
+#fig g.marker-10:hover ~ g.popup-10 { opacity: 1; }
+#fig g.marker-11:hover ~ g.popup-11 { opacity: 1; }
+#fig g.marker-12:hover ~ g.popup-12 { opacity: 1; }
+#fig g.marker-13:hover ~ g.popup-13 { opacity: 1; }
+#fig g.marker-14:hover ~ g.popup-14 { opacity: 1; }
+#fig g.marker-15:hover ~ g.popup-15 { opacity: 1; }
+#fig g.marker-16:hover ~ g.popup-16 { opacity: 1; }
+#fig g.marker-17:hover ~ g.popup-17 { opacity: 1; }
+#fig g.marker-18:hover ~ g.popup-18 { opacity: 1; }
+#fig g.marker-19:hover ~ g.popup-19 { opacity: 1; }
+
+    </style>
+  </head>
+  <body>
+    <div id="fig"></div>
+    <script type="text/javascript" src="worldmap.js"></script>
+  </body>
+</html>

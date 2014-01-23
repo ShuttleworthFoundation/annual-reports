@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Annual Report 2012</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <div class="container container-brown-light">
+      <div class="container-header">
+	<h1>Annual Report 2012</h1>
+      </div>
+      <div class="container-inner">
+	<div class="content content-full">
+	  <img class="photo photo-left" src="img/photo-helen.png" alt="Helen Turvey"/>
+	  <div class="columns">
+	    <div class="column column-half">
+	      <p>It has been 4 years since we have changed our funding structure, to invest in the person with the innovative idea, rather than the idea itself. This has helped us be more agile and stay on track when specific project milestones no longer made sense in a changing landscape. It has also helped our investments go further, the initiatives no longer end when the funding does, but continue long after the Fellow leaves the programme.</p>
+	      <p>We continue to be excited about those that can both articulate their idea and also put it into action. 2012 saw us bring 4 new Fellows into the programme working in diverse areas, conflict resolution and open hardware being entirely new for our support.</p>
+	    </div>
+	    <div class="column column-half">
+	      <p>Whilst the Fellows are treading the path of optimising social impact and determining sustainability, at the Foundation, we are learning how to create a safe space for shared learning with the best blend of funding and support.</p>
+	      <p>A fundamental part of our theory of change is that being deliberately, legally and practically open is the best way to make our ideas spread. We invest in open as as the default and challenge the notion that being closed is key to building sustainable advantages. This idea is not so alien in 2012. Governments around the world are opening up data to its citizens. Educational institutions are starting to experience the benefits of embracing open educational resources and at the frontier of openness, businesses are creatively venturing into this new landscape.</p>
+	    </div>
+	  </div>
+	  <blockquote>
+	    <p>Looking back on the year it is exciting to see these changes and our contribution to them, but there is a long road ahead!</p>
+	    <cite>
+	      <strong>Helen Turvey</strong>, <em>Chief Executive Officer</em>
+	    </cite>
+	  </blockquote>
+	</div>
+      </div>
+    </div>
+    <div class="content content-split content-split-container">
+      <div class="content content-split content-left">
+	<h2>Where we focus our energy</h2>
+	<p>We have a modest amount of funding, and big ideas. We want to find keys that unlock barriers and drive change through systems. In 2012 we did that by building an eco-system of open ideas.</p>
+	<p>We supported openness in intellectual property, data, privacy, hardware, education, publishing, government, telecoms and the Web.</p>
+      </div>
+      <div class="content content-split content-main">
+	<img src="img/energy.svg" alt="Where we focus our energy."/>
+      </div>
+    </div>      
+  </body>
+</html>

@@ -1,0 +1,148 @@
+{ "fellows": [
+    { "id": "arthur",
+      "name": "Arthur Attwell",
+      "duration": "September 2011 - present",
+      "blog": "http://arthurattwell.com",
+      "twitter": "@atrhurattwell",
+      "www": "http://paperight.com",
+      "funds": 300800.00,
+      "spend": [{ "label": "Overheads", "value": 108662.00 },
+		{ "label": "Software", "value": 102138.01 },
+		{ "label": "People", "value": 45504.40 },
+		{ "label": "Marketing", "value": 39613.04 },
+		{ "label": "Travel", "value": 3182.46 }
+	       ]
+    },
+    { "id": "catharina",
+      "name": "Catharina Maracke",
+      "duration": "May 2012 - present",
+      "www": "http://harmonyagreements.org",
+      "funds": 407585.00,
+      "spend": [{ "label": "People", "value": 196524.10 },
+		{ "label": "Legal fees", "value": 13237.50 },
+		{ "label": "Travel", "value": 1428.26 }
+	       ]
+    },
+    { "id": "gavin",
+      "name": "Gavin Weale",
+      "duration": "March 2011 - present",
+      "blog": "http://livity.co.uk/category/blog",
+      "twitter": "@gavinweale",
+      "www": "http://www.livityafrica.com http://livemag.co.za",
+      "funds": 365211.00,
+      "funds-footnote": "Variance due to rollover funds from 2011",
+      "spend": [{ "label": "People", "value": 222262.95 },
+		{ "label": "Printing", "value": 97547.68 },
+		{ "label": "Overheads", "value": 40644.56 },
+		{ "label": "Marketing", "value": 24086.05 },
+		{ "label": "Software", "value": 16652.82 },
+		{ "label": "Stipends", "value": 16424.83 },
+		{ "label": "Distribution", "value": 12847.43 },
+		{ "label": "Travel", "value": 11722.87 }
+	       ]
+    },
+    { "id": "jaisen",
+      "name": "Jaisen Mathai",
+      "duration": "September 2012 - present",
+      "twitter": "https://twitter.com/jmathai",
+      "www": "http://www.jaisenmathai.com",
+      "funds": 362500.00,
+      "spend": [{ "label": "People", "value": 50412.50 },
+		{ "label": "Software", "value": 31835.89 }
+	       ]
+    },
+    { "id": "rufus",
+      "name": "Rufus Pollock",
+      "duration": "September 2010 - present",
+      "blog": "http://rufuspollock.org",
+      "twitter": "@rufuspollock",
+      "www": "http://rufuspollock.org",
+      "funds": 333093.00,
+      "spend": [{ "label": "People", "value": 67086.68 }
+	       ]
+    },
+    { "id": "kathi",
+      "name": "Kathi Fletcher",
+      "duration": "March 2011 - present",
+      "blog": "kefletcher.blogspot.com",
+      "twitter": "@kefletcher",
+      "funds": 396175.00,
+      "spend": [{ "label": "Software", "value": 155473.62 },
+		{ "label": "People", "value": 131304.17 },
+		{ "label": "Travel", "value": 18987.33 }
+	       ]
+    },
+    { "id": "marcin",
+      "name": "Marcin Jacubowski",
+      "duration": "March 2012 - present",
+      "blog": "http://blog.opensourceecology.org",
+      "twitter": "@OSEcology",
+      "www": "http://opensourceecology.org",
+      "funds": 362500.00,
+      "spend": [{ "label": "People", "value": 99591.60 }
+	       ]
+    },
+    { "id": "esra",
+      "name": "Esra'a Al Shafei",
+      "duration": "September 2012 - present",
+      "blog": "http://mideastyouth.com/author/esra",
+      "twitter": "@ealshafei",
+      "www": "http://crowdvoice.org",
+      "funds": 307500.00,
+      "spend": [{ "label": "People", "value": 21912.50 }
+	       ]
+    },
+    { "id": "paul",
+      "name": "Paul Gardner-Stevens",
+      "duration": "September 2011 - August 2012",
+      "blog": "http://servalpaul.blogspot.com",
+      "twitter": "@servalpaul",
+      "www": "http://www.servalproject.org",
+      "funds": "$0 (exit August 2012)",
+      "spend": [{ "label": "Software", "value": 142099.65 },
+		{ "label": "Travel", "value": 21715.79 },
+		{ "label": "People", "value": 11061.82 }
+	       ]
+    },
+    { "id": "philipp",
+      "name": "Philipp Schmidt",
+      "duration": "June 2009 - August 2012",
+      "blog": "http://sharing-nicely.net",
+      "twitter": "@schmidtphi",
+      "www": "http://p2pu.org",
+      "funds": "$0 (exit August 2012)",
+      "spend": [{ "label": "People", "value": 64733.89 },
+		{ "label": "Infrastructure", "value": 22046.96 },
+		{ "label": "Events", "value": 18748.13 }
+	       ]
+    }
+], "alumni": [
+    { "id": "steve",
+      "name": "Steve Vosloo",
+      "spend": [{ "label": "People", "value": 3174.54 },
+		{ "label": "Software", "value": 588.38 }
+	       ]
+    },
+    { "id": "mark",
+      "name": "Mark Horner",
+      "spend": [{ "label": "People", "value": 49204.28 },
+		{ "label": "Software", "value": 25304.88 },
+		{ "label": "Travel", "value": 12435.91 },
+		{ "label": "Office space", "value": 4231.52 }
+	       ]
+    },
+    { "id": "kabir",
+      "name": "Kabir Bavikatte",
+      "spend": [{ "label": "People", "value": 31972.99 }
+	       ]
+    },
+    { "id": "francois",
+      "name": "Francois Grey",
+      "spend": [{ "label": "Travel", "value": 31557.12 },
+		{ "label": "Software", "value": 17268.28 },
+		{ "label": "People", "value": 16065.80 },
+		{ "label": "Marketing", "value": 21767.00 }
+	       ]
+    }
+] }
+

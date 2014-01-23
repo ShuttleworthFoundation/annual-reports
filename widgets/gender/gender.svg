@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" height="600px" viewBox="-50 -80 100 160" width="800px" version="1.1" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 800 600">
+  <defs>
+    <style>
+      @font-face {
+	  font-family: 'Georgia';
+	  src: local("Georgia");
+	  src: url('fonts/Georgia.ttf');
+      }
+      @font-face {
+	  font-family: 'Georgia Bold';
+	  src: local("Georgia Bold");
+	  src: url('fonts/Georgia Bold.ttf');
+      }
+      text {
+	  font-family: Helvetica, sans-serif;
+	  font-weight: bold;
+	  font-size: 3pt;
+      }
+      text.aggregate {
+	  font-family: Georgia, serif;
+	  font-weight: 100;
+	  font-size: 5.5pt;
+	  fill: #b5624d;
+      }
+      .male path {
+          stroke: #85796A;
+	  stroke-width: 10;
+	  fill: none;
+      }
+      .male path.segment {
+          stroke: #CCCCDC;
+	  stroke-width: 2;
+	  fill: #85796A;
+      }
+      .male text {
+          fill: #85796A;
+      }
+      .female path {
+          stroke: #C78B48;
+	  stroke-width: 10;
+	  fill: none;
+      }
+      .female path.segment {
+          stroke: #CCCCDC;
+	  stroke-width: 2;
+	  fill: #C78B48;
+      }
+      .female text {
+          fill: #C78B48;
+      }
+    </style>
+  </defs>
+  <g class="male">
+    <path class="segment" d=""/>
+    <path d="M-20,-50 L0,-70 L20,-50 M0,-70 L0,-30"/>
+  </g>
+  <g class="female">
+    <path class="segment" d=""/>
+    <path d="M0,80 L0,35 M-20,60 L20,60"/>
+  </g>
+  <text font-size="18" font-family="&apos;Georgia&apos;" transform="translate(410.75 298.52)" fill="#9D9488">males</text>
+  <text font-size="18" font-family="&apos;Georgia&apos;" transform="translate(411.45 368.16)" fill="#D2A26D">females</text>
+  <text font-size="30" font-family="&apos;Georgia&apos;" transform="translate(401.83 278.35)" fill="#85796A">158</text>
+  <text font-size="30" font-family="&apos;Georgia&apos;" transform="translate(401.83 350.35)" fill="#C78B48">109</text>
+</svg>

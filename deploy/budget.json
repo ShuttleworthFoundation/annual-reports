@@ -1,0 +1,273 @@
+{ "data": {
+    "taxonomy": "fb", 
+    "amount": 3239640.72, 
+    "label": "Total Spend", 
+    "children": [
+	{ "taxonomy": "fb", 
+	  "amount": 2354055.6, 
+	  "label": "Fellows", 
+	  "children": [
+	      { "taxonomy": "fb", 
+		"amount": 1300461.97, 
+		"label": "Grants", 
+		"children": [
+		    { "taxonomy": "fb", 
+		      "amount": 3865.12, 
+		      "label": "IT support", 
+		      "children": [], 
+		      "name": "IT support"
+		    }, 
+		    { "taxonomy": "fb", 
+		      "amount": 650.0, 
+		      "label": "Legal", 
+		      "children": [], 
+		      "name": "Legal"
+		    }, 
+		    { "taxonomy": "fb", 
+		      "amount": 97547.68, 
+		      "label": "Printing", 
+		      "children": [], 
+		      "name": "Printing"
+		    }, 
+		    { "taxonomy": "fb", 
+		      "amount": 107390.32, 
+		      "label": "Travel", 
+		      "children": [], 
+		      "name": "Travel"
+		    }, 
+		    { "taxonomy": "fb", 
+		      "amount": 1433713.39, 
+		      "label": "People", 
+		      "children": [], 
+		      "name": "People"
+		    }, 
+		    { "taxonomy": "fb", 
+		      "amount": 331993.6, 
+		      "label": "Software", 
+		      "children": [], 
+		      "name": "Software"
+		    }, 
+		    { "taxonomy": "fb", 
+		      "amount": 16424.83, 
+		      "label": "Stipends", 
+		      "children": [], 
+		      "name": "Stipends"
+		    }, 
+		    { "taxonomy": "fb", 
+		      "amount": 2300.79, 
+		      "label": "Stationery", 
+		      "children": [], 
+		      "name": "Stationery"
+		    }, 
+		    { "taxonomy": "fb", 
+		      "amount": 5588.81, 
+		      "label": "Insurance", 
+		      "children": [], 
+		      "name": "Insurance"
+		    }, 
+		    { "taxonomy": "fb", 
+		      "amount": 60011.8, 
+		      "label": "Marketing", 
+		      "children": [], 
+		      "name": "Marketing"
+		    }, 
+		    { "taxonomy": "fb", 
+		      "amount": 12847.43, 
+		      "label": "Distribution", 
+		      "children": [], 
+		      "name": "Distribution"
+		    }, 
+		    { "taxonomy": "fb", 
+		      "amount": 32471.36, 
+		      "label": "Office space", 
+		      "children": [], 
+		      "name": "Office space"
+		    }
+		], 
+		"name": "Grants"
+	      }, 
+	      { "taxonomy": "fb", 
+		"amount": 119215.47, 
+		"label": "Travel", 
+		"children": [], 
+		"name": "Travel"
+	      }, 
+	      { "taxonomy": "fb", 
+		"amount": 130035.0, 
+		"label": "Flash grants", 
+		"children": [], 
+		"name": "Flash grants"
+	      }
+	  ], 
+	  "name": "Fellows"
+	}, 
+	{ "taxonomy": "fb", 
+	  "amount": 885585.12, 
+	  "label": "Overheads", 
+	  "children": [
+	      { "taxonomy": "fb", 
+		"amount": 478969.12, 
+		"label": "Operational costs", 
+		"children": [
+		    { "taxonomy": "fb", 
+		      "amount": 320.17, 
+		      "label": "Entertainment", 
+		      "children": [], 
+		      "name": "Entertainment"
+		    }, 
+		    { "taxonomy": "fb", 
+		      "amount": 265.25, 
+		      "label": "Postage", 
+		      "children": [], 
+		      "name": "Postage"
+		    }, 
+		    { "taxonomy": "fb", 
+		      "amount": 21524.38, 
+		      "label": "Overseas Travel", 
+		      "children": [], 
+		      "name": "Overseas Travel"
+		    }, 
+		    { "taxonomy": "fb", 
+		      "amount": 31933.1, 
+		      "label": "Office Space", 
+		      "children": [], 
+		      "name": "Office Space"
+		    }, 
+		    { "taxonomy": "fb", 
+		      "amount": 18168.83, 
+		      "label": "Staff Costs", 
+		      "children": [], 
+		      "name": "Staff Costs"
+		    }, 
+		    { "taxonomy": "fb", 
+		      "amount": 246847.26, 
+		      "label": "Consultancy fees", 
+		      "children": [], 
+		      "name": "Consultancy fees"
+		    }, 
+		    { "taxonomy": "fb", 
+		      "amount": 10878.84, 
+		      "label": "Bank charges", 
+		      "children": [], 
+		      "name": "Bank charges"
+		    }, 
+		    { "taxonomy": "fb", 
+		      "amount": 4351.16, 
+		      "label": "Communication Costs", 
+		      "children": [], 
+		      "name": "Communication Costs"
+		    }, 
+		    { "taxonomy": "fb", 
+		      "amount": 10121.13, 
+		      "label": "IT support", 
+		      "children": [], 
+		      "name": "IT support"
+		    }, 
+		    { "taxonomy": "fb", 
+		      "amount": 22125.9, 
+		      "label": "Website", 
+		      "children": [], 
+		      "name": "Website"
+		    }, 
+		    { "taxonomy": "fb", 
+		      "amount": 2816.84, 
+		      "label": "Marketing", 
+		      "children": [], 
+		      "name": "Marketing"
+		    }, 
+		    { "taxonomy": "fb", 
+		      "amount": 15840.0, 
+		      "label": "Legal fees", 
+		      "children": [], 
+		      "name": "Legal fees"
+		    }, 
+		    { "taxonomy": "fb", 
+		      "amount": 6755.1, 
+		      "label": "Overseas Travel", 
+		      "children": [], 
+		      "name": "Overseas Travel"
+		    }, 
+		    { "taxonomy": "fb", 
+		      "amount": 85878.59, 
+		      "label": "Events (Gathering)", 
+		      "children": [], 
+		      "name": "Events (Gathering)"
+		    }, 
+		    { "taxonomy": "fb", 
+		      "amount": 1142.58, 
+		      "label": "Postage", 
+		      "children": [], 
+		      "name": "Postage"
+		    }
+		], 
+		"name": "Operational costs"
+	      }, 
+	      { "taxonomy": "fb", 
+		"amount": 406616.0, 
+		"label": "Salaries", 
+		"children": [], 
+		"name": "Salaries"
+	      }
+	  ], 
+	  "name": "Overheads"
+	}
+    ], 
+    "name": "Total Spend"
+},
+  "style": {
+      "fb": {
+          "Total Spend": {
+	      "color": "#8ba494",
+	      "icon": "/2012/img/icons/total_spend.svg"
+	  },
+          "Overheads": {
+	      "color": "#e2ae23",
+	      "icon": "/2012/img/icons/overheads.svg"
+          },
+          "Fellows": {
+	      "color": "#8a7f98",
+	      "icon": "/2012/img/icons/fellows.svg"
+          },
+          "Legal": {
+	      "color": "#718488",
+	      "icon": "/2012/img/icons/legal.svg"
+          },
+          "Events": {
+	      "color": "#4e6648",
+	      "icon": "/2012/img/icons/events.svg"
+          },
+          "Distribution": {
+	      "color": "#d58b45",
+	      "icon": "/2012/img/icons/distribution.svg"
+          },
+          "Marketing": {
+	      "color": "#d4ada7",
+	      "icon": "/2012/img/icons/marketing.svg"
+          },
+          "Office space": {
+	      "color": "#c47a6b",
+	      "icon": "/2012/img/icons/office.svg"
+          },
+          "People": {
+	      "color": "#304242",
+	      "icon": "/2012/img/icons/people.svg"
+          },
+          "Printing": {
+	      "color": "#90b4cf",
+	      "icon": "/2012/img/icons/printing.svg"
+          },
+          "Software": {
+	      "color": "#103372",
+	      "icon": "/2012/img/icons/software.svg"
+          },
+          "Stipends": {
+	      "color": "#8f809b",
+	      "icon": "/2012/img/icons/stipends.svg"
+          },
+          "Travel": {
+	      "color": "#c47a6b",
+	      "icon": "/2012/img/icons/travel.svg"
+          }
+      }
+  }
+}
