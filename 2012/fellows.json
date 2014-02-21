@@ -5,22 +5,25 @@
       "blog": "http://arthurattwell.com",
       "twitter": "@atrhurattwell",
       "www": "http://paperight.com",
-      "funds": 300800.00,
-      "spend": [{ "label": "Overheads", "value": 108662.00 },
-		{ "label": "Software", "value": 102138.01 },
-		{ "label": "People", "value": 45504.40 },
-		{ "label": "Marketing", "value": 39613.04 },
-		{ "label": "Travel", "value": 3182.46 }
+      "funds": 178028.00,
+      "spend": [{ "label": "Grant", "value": 33102.00 },
+		{ "label": "Travel", "value": 2953.00 },
+		{ "label": "Software", "value": 52065.00 },
+		{ "label": "Training", "value": 1562.00 },
+		{ "label": "Office Space", "value": 5467.00 },
+		{ "label": "People", "value": 82879.00 }
 	       ]
     },
     { "id": "catharina",
       "name": "Catharina Maracke",
       "duration": "May 2012 - present",
       "www": "http://harmonyagreements.org",
-      "funds": 407585.00,
-      "spend": [{ "label": "People", "value": 196524.10 },
-		{ "label": "Legal fees", "value": 13237.50 },
-		{ "label": "Travel", "value": 1428.26 }
+      "funds": 182848.00,
+      "spend": [{ "label": "Travel", "value": 477.00 },
+		{ "label": "Software", "value": 42216.00 },
+		{ "label": "Stationery", "value": 20906.00 },
+		{ "label": "Office Space", "value": 104.00 },
+		{ "label": "Consultants", "value": 119146.00 }
 	       ]
     },
     { "id": "gavin",
@@ -29,16 +32,12 @@
       "blog": "http://livity.co.uk/category/blog",
       "twitter": "@gavinweale",
       "www": "http://www.livityafrica.com http://livemag.co.za",
-      "funds": 365211.00,
+      "funds": 337399.00,
       "funds-footnote": "Variance due to rollover funds from 2011",
-      "spend": [{ "label": "People", "value": 222262.95 },
-		{ "label": "Printing", "value": 97547.68 },
-		{ "label": "Overheads", "value": 40644.56 },
-		{ "label": "Marketing", "value": 24086.05 },
-		{ "label": "Software", "value": 16652.82 },
-		{ "label": "Stipends", "value": 16424.83 },
-		{ "label": "Distribution", "value": 12847.43 },
-		{ "label": "Travel", "value": 11722.87 }
+      "spend": [{ "label": "Grant", "value": 103229.00 },
+		{ "label": "Travel", "value": 258.00 },
+		{ "label": "Marketing", "value": 12367.00 },
+		{ "label": "People", "value": 221545.00 }
 	       ]
     },
     { "id": "jaisen",
@@ -46,9 +45,13 @@
       "duration": "September 2012 - present",
       "twitter": "https://twitter.com/jmathai",
       "www": "http://www.jaisenmathai.com",
-      "funds": 362500.00,
-      "spend": [{ "label": "People", "value": 50412.50 },
-		{ "label": "Software", "value": 31835.89 }
+      "funds": 335151.00,
+      "spend": [{ "label": "Grant", "value": 103668.00 },
+		{ "label": "Travel", "value": 9165.00 },
+		{ "label": "Software", "value": 132814.00 },
+		{ "label": "Office Space", "value": 52500.00 },
+		{ "label": "People", "value": 37004.00 },
+		{ "label": "Consultants", "value": 144593.00 }
 	       ]
     },
     { "id": "rufus",
@@ -58,7 +61,11 @@
       "twitter": "@rufuspollock",
       "www": "http://rufuspollock.org",
       "funds": 333093.00,
-      "spend": [{ "label": "People", "value": 67086.68 }
+      "spend": [{ "label": "Grant", "value": 33104.00 },
+		{ "label": "Travel", "value": 4147.00 },
+		{ "label": "Software", "value": 39434.00 },
+		{ "label": "People", "value": 468170.00 },
+		{ "label": "Consultants", "value": 353800.00 }
 	       ]
     },
     { "id": "kathi",
@@ -67,9 +74,10 @@
       "blog": "kefletcher.blogspot.com",
       "twitter": "@kefletcher",
       "funds": 396175.00,
-      "spend": [{ "label": "Software", "value": 155473.62 },
-		{ "label": "People", "value": 131304.17 },
-		{ "label": "Travel", "value": 18987.33 }
+      "spend": [{ "label": "Grant", "value": 134176.00 },
+		{ "label": "Travel", "value": 58804.00 },
+		{ "label": "Software", "value": 264684.00 },
+		{ "label": "Consultants", "value": 32128.00 }
 	       ]
     },
     { "id": "marcin",
@@ -79,7 +87,10 @@
       "twitter": "@OSEcology",
       "www": "http://opensourceecology.org",
       "funds": 362500.00,
-      "spend": [{ "label": "People", "value": 99591.60 }
+      "spend": [{ "label": "Grant", "value": 100511.00 },
+		{ "label": "Travel", "value": 418.00 },
+		{ "label": "Hardware", "value": 100000.00 },
+		{ "label": "People", "value": 228167.00 }
 	       ]
     },
     { "id": "esra",
@@ -89,60 +100,85 @@
       "twitter": "@ealshafei",
       "www": "http://crowdvoice.org",
       "funds": 307500.00,
-      "spend": [{ "label": "People", "value": 21912.50 }
+      "spend": [{ "label": "Grant", "value": 44668.00 },
+		{ "label": "Travel", "value": 5100.00 },
+		{ "label": "Software", "value": 118520.00 },
+		{ "label": "People", "value": 58750.00 }
 	       ]
     },
-    { "id": "paul",
-      "name": "Paul Gardner-Stevens",
-      "duration": "September 2011 - August 2012",
-      "blog": "http://servalpaul.blogspot.com",
-      "twitter": "@servalpaul",
-      "www": "http://www.servalproject.org",
-      "funds": "$0 (exit August 2012)",
-      "spend": [{ "label": "Software", "value": 142099.65 },
-		{ "label": "Travel", "value": 21715.79 },
-		{ "label": "People", "value": 11061.82 }
+    { "id": "jonas",
+      "name": "Jonas Öberg",
+      "duration": "March 2013 - present",
+      "blog": "http://jonasoberg.net",
+      "twitter": "@jonaso",
+      "www": "http://commonsmachinery.se",
+      "funds": 290061.00,
+      "spend": [{ "label": "Grant", "value": 97511.00 },
+		{ "label": "Software", "value": 67670.00 },
+		{ "label": "People", "value": 124880.00 }
 	       ]
     },
-    { "id": "philipp",
-      "name": "Philipp Schmidt",
-      "duration": "June 2009 - August 2012",
-      "blog": "http://sharing-nicely.net",
-      "twitter": "@schmidtphi",
-      "www": "http://p2pu.org",
-      "funds": "$0 (exit August 2012)",
-      "spend": [{ "label": "People", "value": 64733.89 },
-		{ "label": "Infrastructure", "value": 22046.96 },
-		{ "label": "Events", "value": 18748.13 }
+    { "id": "daniel",
+      "name": "Daniel Lombraña González",
+      "duration": "September 2013 - present",
+      "blog": "http://daniellombrana.es/blog/",
+      "twitter": "@teleyinex",
+      "www": "http://crowdcrafting.org/",
+      "funds": 40181.00,
+      "spend": [{ "label": "Grant", "value": 38761.00 },
+		{ "label": "Travel", "value": 1420.00 }
+	       ]
+    },
+    { "id": "david",
+      "name": "David Wiley",
+      "duration": "March 2013 - present",
+      "blog": "http://opencontent.org/blog/",
+      "twitter": "@opencontent",
+      "www": "http://www.lumenlearning.com/",
+      "funds": 800000.00,
+      "spend": [{ "label": "Grant", "value": 122551.00 },
+		{ "label": "People", "value": 244651.00 }
+	       ]
+    },
+    { "id": "dan",
+      "name": "Dan Whaley",
+      "duration": "March 2013 - present",
+      "blog": "hypothes.is/blog",
+      "twitter": "@dwhly",
+      "www": "hypothes.is",
+      "funds": 80000.00,
+      "spend": [{ "label": "Grant", "value": 97511.00 },
+		{ "label": "People", "value": 235000.00 }
+	       ]
+    },
+    { "id": "moxie",
+      "name": "Moxie Marlinspike",
+      "duration": "September 2013 - present",
+      "blog": "http://www.thoughtcrime.org/blog/",
+      "twitter": "@moxie",
+      "www": "http://whispersystems.org",
+      "funds": 80000.00,
+      "spend": [{ "label": "Grant", "value": 77755.00 }
 	       ]
     }
 ], "alumni": [
     { "id": "steve",
-      "name": "Steve Vosloo",
-      "spend": [{ "label": "People", "value": 3174.54 },
-		{ "label": "Software", "value": 588.38 }
+      "name": "Steve Song",
+      "spend": [{ "label": "Audit fees", "value": 3182.46 }]
+    },
+    { "id": "philipp",
+      "name": "Philipp Schmidt",
+      "spend": [{ "label": "Office Space", "value": 7225.00 },
+		{ "label": "People", "value": 75517.00 }
 	       ]
     },
     { "id": "mark",
       "name": "Mark Horner",
-      "spend": [{ "label": "People", "value": 49204.28 },
-		{ "label": "Software", "value": 25304.88 },
-		{ "label": "Travel", "value": 12435.91 },
-		{ "label": "Office space", "value": 4231.52 }
-	       ]
-    },
-    { "id": "kabir",
-      "name": "Kabir Bavikatte",
-      "spend": [{ "label": "People", "value": 31972.99 }
-	       ]
+      "spend": [{ "label": "Travel", "value": 9238.00 }]
     },
     { "id": "francois",
       "name": "Francois Grey",
-      "spend": [{ "label": "Travel", "value": 31557.12 },
-		{ "label": "Software", "value": 17268.28 },
-		{ "label": "People", "value": 16065.80 },
-		{ "label": "Marketing", "value": 21767.00 }
-	       ]
+      "spend": [{ "label": "Travel", "value": 5517.00 }]
     }
 ] }
 
