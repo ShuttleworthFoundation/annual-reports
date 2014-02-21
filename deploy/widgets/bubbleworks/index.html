@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Bubble Tree ver. 15.08.2013</title>
+    <script type="text/javascript" src="bubbletree/lib/jquery-1.5.2.min.js"></script>
+    <script type="text/javascript" src="bubbletree/lib/jquery.history.js"></script>
+    <script type="text/javascript" src="bubbletree/lib/raphael.js"></script>
+    <script type="text/javascript" src="bubbletree/lib/vis4.js"></script>
+    <script type="text/javascript" src="bubbletree/lib/Tween.js"></script>
+    <script type="text/javascript" src="bubbletree/lib/jquery.tooltip.min.js"></script>
+    <script type="text/javascript" src="bubbletree/build1/bubbletree.js"></script>
+    <script type="text/javascript" src="bubbletree/styles/cofog.js"></script>
+    <link rel="stylesheet" type="text/css" href="bubbletree/build1/bubbletree.css" />
+    <script type="text/javascript">
+        $(document).ready(function() {
+	    $.get('/budget.json', function(data) {
+		new BubbleTree({
+                    data: data,
+                    container: '.bubbletree',
+                    bubbleType: 'icon',
+                    bubbleStyles: {
+			'fb': {
+                            'Total Spend': {
+				color: '#009900',
+				icon: '/img/icons/total_spend.svg'
+                            },
+                            'Overheads': {
+				color: '#009900',
+				icon: '/img/icons/overheads.svg'
+                            },
+                            'Fellows': {
+				color: '#009900',
+				icon: '/img/icons/fellows.svg'
+                            },
+                            'Legal': {
+				color: '#009900',
+				icon: '/img/icons/legal.svg'
+                            },
+                            'Events': {
+				color: '#009900',
+				icon: '/img/icons/events.svg'
+                            },
+                            'Distribution': {
+				color: '#009900',
+				icon: '/img/icons/distribution.svg'
+                            },
+                            'Marketing': {
+				color: '#009900',
+				icon: '/img/icons/marketing.svg'
+                            },
+                            'Office space': {
+				color: '#009900',
+				icon: '/img/icons/office.svg'
+                            },
+                            'People': {
+				color: '#009900',
+				icon: '/img/icons/people.svg'
+                            },
+                            'Printing': {
+				color: '#009900',
+				icon: '/img/icons/printing.svg'
+                            },
+                            'Software': {
+				color: '#009900',
+				icon: '/img/icons/software.svg'
+                            },
+                            'Stipends': {
+				color: '#009900',
+				icon: '/img/icons/stipends.svg'
+                            },
+                            'Travel': {
+				color: '#009900',
+				icon: '/img/icons/travel.svg'
+                            }
+			}
+                    }
+		});
+            });
+	});
+    </script>
+</head>
+<body>
+<div class="bubbletree-wrapper">
+    <div class="bubbletree"></div>
+</div>
+</body>
+</html>
